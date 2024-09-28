@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Инструкция по использованию Desync – чит для Left 4 Dead 2.">
+    <meta name="keywords" content="Desync, Left 4 Dead 2, чит, инструкция">
+    <meta name="author" content="Desync Team">
+    <title>Инструкция - Desync</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1b1b1b;
+            color: #ffffff;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+        .animated-bg {
+            background: linear-gradient(-45deg, #1b1b1b, #282828, #333, #000);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            margin-top: 50px;
+            color: #FF2B2B;
+            font-size: 2.5em;
+            opacity: 0;
+            animation: fadeIn 1s forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        p {
+            margin: 20px;
+            color: #aaaaaa;
+            font-size: 1.2em;
+            opacity: 0;
+            animation: fadeIn 1s forwards 1s;
+        }
+
+        .instruction {
+            display: inline-block;
+            background-color: rgba(255, 43, 43, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            margin: 10px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .instruction:hover {
+            transform: scale(1.05);
+        }
+
+        .button-container {
+            margin-top: 40px; /* Отступ сверху для кнопок */
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #FF2B2B;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            color: #1b1b1b;
+            border-radius: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease-in-out;
+            width: 250px;
+            opacity: 0;
+            animation: fadeIn 1s forwards 1.5s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 10px; /* Отступы между кнопками */
+        }
+
+        .button:hover {
+            background-color: #e62e2e;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <h1>Инструкция по использованию Desync</h1>
+    <div class="instruction">
+        <p>1. Скачайте чит, нажав кнопку ниже.</p>
+        <p>2. Запустите Steam.</p>
+        <p>3. Запустите Desync.</p>
+    </div>
+    
+    <div class="button-container">
+        <a href="https://www.dropbox.com/scl/fi/qjl64ba7mkifn4rl8k4jn/DeSync.exe?rlkey=0dyuwhxappqg18m4h18nlc7zp&st=sugyx5u7&dl=1" class="button">Скачать</a>
+        <br>
+        <a href="index.html" class="button">На главную</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Desync. Все права защищены.</p>
+    </footer>
+</body>
+</html>
